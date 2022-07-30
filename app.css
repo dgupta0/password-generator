@@ -1,0 +1,94 @@
+body{
+    background-color: #0C0014;
+    font-family: neo-sans,Arial,Helvetica,sans-serif;
+    
+    
+}
+
+#main{
+    margin-top: 100px;
+    
+    
+
+}
+#text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: start;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+#main1{
+    color: #fefbff; 
+    margin-bottom: 0px; 
+}  
+
+#main2{
+    color: #8600E0;
+    margin-top: 5px; 
+   
+}  
+
+p{
+    color: #F3FFEB;
+    font-size: larger;
+    margin-bottom: 85px;
+    margin-top: 5px;
+    font-weight: bold;
+   
+}
+#showPass{
+    display: flex;
+    margin-top: 50px;
+    font-size: larger;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    
+}
+#firstPass{
+    background-color: #241A2C;
+    color: #8600E0;
+    border-radius: 5px;
+    padding: 10px 100px 12px 100px;
+    margin-right: 20px; 
+    height: 15px;
+    width: 250px;
+
+}
+#secondPass{
+ background-color: #241A2C;
+ color: #8600E0;
+ border-radius: 5px;
+ padding: 10px 100px 12px 100px;
+ height: 15px;
+ width: 250px;
+}
+button{
+    background-color: #8600E0;
+    color: #fefbff;  
+    padding: 10px 20px 10px 20px; 
+    font-size: larger;
+    margin-bottom: 50px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+@media(max-width: 800px){
+    #showPass{
+        display: flex;
+        flex-direction: column;
+    }
+    #firstPass{
+        margin-bottom: 10px;
+    }
+    #secondPass{
+        margin-right: 20px;
+    } 
+}
