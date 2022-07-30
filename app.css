@@ -78,6 +78,7 @@ button{
     border: none;
     font-weight: bold;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 @media(max-width: 800px){
